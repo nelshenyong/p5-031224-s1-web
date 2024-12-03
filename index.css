@@ -137,3 +137,13 @@ a.link-ig {
     font-weight: bold;
     color: rgb(32, 188, 255);
 }
+
+*::-webkit-scrollbar {
+    display: none;
+}
+  
+
+* {
+    -ms-overflow-style: none;
+    scrollbar-width: none; 
+}
